@@ -1,0 +1,17 @@
+﻿<Window x:Class="AviacaoWPF.WindowPessoa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AviacaoWPF"
+        mc:Ignorable="d"
+        Title="WindowPessoa" Height="600" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label  Margin="10" Height="30" VerticalAlignment="Top">Id:</Label>
+            <TextBlock x:Name="Id" Margin="10" Height="30" VerticalAlignment="Top" Text="{Binding Path=Pessoa.Id}" />
+            <Label  Margin="10" Height="30" VerticalAlignment="Top">Nome:</Label>
+            <TextBox x:Name="PersonName"  Margin="10" Height="30" VerticalAlignment="Top" Text="{Binding Path=Pessoa.Nome}"/>
+        </StackPanel>
+    </Grid>
+</Window>
