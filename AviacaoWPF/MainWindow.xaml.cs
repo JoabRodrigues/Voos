@@ -30,11 +30,7 @@ namespace AviacaoWPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ModelAviacao context = new ModelAviacao();
-
-            var pessoa = context.Pessoas.First();
             WindowPessoa wp = new WindowPessoa();
-            wp.Pessoa = pessoa;
             wp.Show();
         }
     }

@@ -13,7 +13,7 @@ namespace Aviacao
 
             Pessoa pessoa = new Pessoa()
             {
-                Nome = "Alex Pinheiro das Graças"
+                Nome = "Gislaine Sabino"
             };
             Cidade CWB = new Cidade() { Nome = "Curitiba" };
             Cidade BSB = new Cidade() { Nome = "Brasilia" };
