@@ -66,7 +66,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\CidadesViewModel.cs" />
     <Compile Include="ViewModel\PessoasViewModel.cs" />
+    <Compile Include="WindowCidade.xaml.cs">
+      <DependentUpon>WindowCidade.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowPessoa.xaml.cs">
       <DependentUpon>WindowPessoa.xaml</DependentUpon>
     </Compile>
@@ -82,6 +86,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="WindowCidade.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WindowPessoa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -30,7 +30,9 @@ namespace Aviacao
             passagem.Trechos.Add(vooCWBBSB);
             passagem.Trechos.Add(vooBSBVIX);
             ModelAviacao context = new ModelAviacao();
-            context.Pessoas.Add(pessoa);
+            //context.Pessoas.Add(pessoa);
+
+            context.Cidades.Add(CWB);
             context.SaveChanges();
         }
     }

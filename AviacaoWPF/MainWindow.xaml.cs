@@ -33,5 +33,11 @@ namespace AviacaoWPF
             WindowPessoa wp = new WindowPessoa();
             wp.Show();
         }
+
+        private void Cidades_Click(object sender, RoutedEventArgs e)
+        {
+            WindowCidade Wc = new WindowCidade();
+            Wc.Show();
+        }
     }
 }

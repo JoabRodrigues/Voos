@@ -29,6 +29,7 @@ namespace Aviacao
 
         }
         public virtual DbSet<Pessoa> Pessoas { get; set; }
+        public virtual DbSet<Cidade> Cidades { get; set; }
     }
 
     //public class MyEntity
